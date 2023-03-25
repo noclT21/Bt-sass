@@ -1,0 +1,25 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+  "navbar": #113ACD,
+);
+
+$custom-fontsize: (
+    "commonsize": 18px,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+$font-sizes: map-merge($custom-colors, $custom-fontsize);
+
+
+$navbar-light-color: #fff;
+
+$navbar-light-hover-color: #34BBFF;
+
+$navbar-light-active-color: #34BBFF;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
