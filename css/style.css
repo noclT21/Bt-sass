@@ -10874,4 +10874,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  font-family: "Mulish", sans-serif;
 }/*# sourceMappingURL=style.css.map */
